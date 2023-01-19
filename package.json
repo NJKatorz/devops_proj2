@@ -11,6 +11,7 @@
         "lint:fix": "eslint --fix \"src/**/*.js\"",
         "code:fix": "npm run prettier:fix && npm run lint:fix",
         "test": "jest",
+        "build": "webpack ./src/app.js -o public/",
         "test:coverage": "jest --coverage",
         "test:watch": "jest --watchAll"
     },
