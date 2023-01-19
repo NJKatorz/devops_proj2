@@ -12,7 +12,9 @@ const months = [
     "November",
     "December",
 ];
-// test
+//js
+
+// test 2
 const getCurrentMonth = (date = new Date()) => {
     const currentMonth = date.getMonth();
 
