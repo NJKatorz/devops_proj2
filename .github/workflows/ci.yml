@@ -1,4 +1,4 @@
-name: exoplanet_devops
+name: exoplanets_devops
 
 on:
   pull_request:
